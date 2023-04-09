@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* header-top */
+.a_header_top{
+  height: 30px;
+  background-color: #C6003D;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.a_header_top > .container{
+  border: 1px dashed black;
+  height: 100%;
+  max-width: 1331px !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* header-bottom */
+.a_header_bottom{
+  height: 64px;
+  background-color: #E40046;
 }
-
-.App-link {
-  color: #61dafb;
+.a_header_bottom > .container{
+  border: 1px dashed black;
+  height: 100%;
+  max-width: 1331px !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* main  */
+.a_main{
+  background-color: #F7F7F7;
+}
+.a_main1{
+  height: 1061px;
+  max-width: 1331px !important;
+  border: 1px dashed darkblue;
+}
+.a_main2{
+  height: 585px;
+  border: 1px solid black;
+}
+footer{
+  background-color: #F7F7F7;
+  border: 1px solid brown;
+}
+.a_footer1{
+  height: 771px;
+  border: 1px solid blue;
+  max-width: 1331px !important;
+}
+.a_footer2{
+  height: 624px;
+  border: 1px dashed violet;
+  max-width: 1331px !important;
+}
+.a_footer3{
+  height: 55px;
+  border: 1px solid red;
+  max-width: 1331px !important;
 }
